@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wavetop"
+    tools:context=".Application.Quarantine.Quarantine_User_Covid19status">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="82dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ttlogo2" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="143dp"
+        android:text="Covid-19 Status"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="240dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="52dp"
+        android:text="Are you a low risk who has
+                      -Exhibiting Covid-19 symptoms?
+                      -Travelling overseas, had contact with Covid-19
+                       patients or attending mass gathering in past 14 days
+                      If yes kindly update your health status"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/start_health"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <Button
+        android:id="@+id/start_health"
+        android:layout_width="226dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="100dp"
+        android:background="#218ABA"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+</androidx.constraintlayout.widget.ConstraintLayout>

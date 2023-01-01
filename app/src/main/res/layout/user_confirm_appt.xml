@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center"
+    android:background="@drawable/wavetop"
+    tools:context=".Application.Vaccination.UserConfirmAppt">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvIc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NRIC / Passport No."
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Mobile No."
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/cbConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="By ticking this, I agree the info above is true and consent to receive the vaccine."
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"/>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tracetogether" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TraceTogether"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Application.Login.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Application.Registration.Registration_1"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Registration.Registration_2"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Registration.Registration_3"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Registration.Registration_4"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.Change_Language"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.Change_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.ChangeID_page"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.User_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Profile.User_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.Add_Dependent"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.Dependent_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Dependent.DependentPage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Homepage.MOH_Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Homepage.User_Homepage"
+            android:exported="false"/>
+        <activity
+            android:name=".Application.Homepage.Admin_Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckIn_History"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckIn_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckIn_MOH"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckIn_SelectDependent"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckIn_User"
+            android:exported="false" />
+        <activity
+         android:name=".Application.CheckIn.CheckIn_UserMovement"
+         android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.CheckOut_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Application.CheckIn.Qr_Scanner"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.DepRegAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.MohAddAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.MohEditAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.MohViewAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.PostVacSymptom"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserApptPage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserBookSlot"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserConfirmAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserEditAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserStatusPage"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.UserViewAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.VacHomeMoh"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Vaccination.VacHomeUser"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_MOH"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_MOH_CovidStatus"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_MOH_quarantinerecord"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_MOH_selftest"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User_Covid19status"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User_HealthStatus"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User_Record"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User_UpdateRecord"
+            android:exported="false" />
+        <activity
+            android:name=".Application.Quarantine.Quarantine_User_updateselftest"
+            android:exported="false" />
+    </application>
+
+</manifest>
